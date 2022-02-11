@@ -3,5 +3,8 @@ name = "heartbeat"
 version = "0.1.0"
 authors = ["jyuch <jyuch@users.noreply.github.com>"]
 edition = "2021"
+description = "Simple http status checker."
 
 [dependencies]
+reqwest = { version = "0.11.9", features = ["blocking"] }
+clap = { version = "3.0.14", features = ["derive"] }
